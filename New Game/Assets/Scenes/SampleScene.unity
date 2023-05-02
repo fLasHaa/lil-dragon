@@ -642,8 +642,8 @@ Transform:
   m_Children:
   - {fileID: 4220848441722016421}
   - {fileID: 287124242}
-  m_Father: {fileID: 1285774197}
-  m_RootOrder: 1
+  m_Father: {fileID: 1919146467}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &157597730
 GameObject:
@@ -4972,7 +4972,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &809936990
 Transform:
   m_ObjectHideFlags: 0
@@ -7571,7 +7571,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1768885932}
-  - {fileID: 142110166}
   - {fileID: 1919146467}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -13245,18 +13244,22 @@ PrefabInstance:
     - target: {fileID: 2727484840055557784, guid: 39fe5eab7c0a22045a9eb5a940a8198c, type: 3}
       propertyPath: anim
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4220848441722016426}
     - target: {fileID: 2727484840055557784, guid: 39fe5eab7c0a22045a9eb5a940a8198c, type: 3}
       propertyPath: enemy
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4220848441722016421}
     - target: {fileID: 2727484840055557790, guid: 39fe5eab7c0a22045a9eb5a940a8198c, type: 3}
       propertyPath: m_Name
       value: EnemyPatrol
       objectReference: {fileID: 0}
+    - target: {fileID: 2727484840055557790, guid: 39fe5eab7c0a22045a9eb5a940a8198c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2727484840055557791, guid: 39fe5eab7c0a22045a9eb5a940a8198c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2727484840055557791, guid: 39fe5eab7c0a22045a9eb5a940a8198c, type: 3}
       propertyPath: m_LocalPosition.x
