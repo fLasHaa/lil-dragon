@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2648178832811529888}
   - component: {fileID: 2648178832811529903}
   - component: {fileID: 2648178832811529891}
+  - component: {fileID: 7317244463107757892}
   m_Layer: 9
   m_Name: MeleeEnemy
   m_TagString: Enemy
@@ -146,6 +147,8 @@ MonoBehaviour:
   startingHealth: 3
   iFrameDuration: 0
   numberOfFlashes: 0
+  components:
+  - {fileID: 2648178832811529891}
 --- !u!114 &2648178832811529891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,9 +163,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackCooldown: 2
   range: 2.5
-  colliderDistance: 0.45
   damage: 2
   boxCollider: {fileID: 2648178832811529888}
+  colliderDistance: 0.45
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &7317244463107757892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2648178832811529901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af595c1406375f41abfafba3ab35e97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
