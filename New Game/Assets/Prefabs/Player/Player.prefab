@@ -130,6 +130,7 @@ MonoBehaviour:
   wallLayer:
     serializedVersion: 2
     m_Bits: 128
+  jumpSound: {fileID: 8300000, guid: 0a4768ac69b63594d98777ebfb045bfa, type: 3}
 --- !u!61 &2352772298960741100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -200,6 +201,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  fireballSound: {fileID: 8300000, guid: 3ca9fa5d2e2f1764c8a1c5799d416255, type: 3}
 --- !u!114 &2352772298960741014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,11 +215,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
-  iFrameDuration: 5
+  iFrameDuration: 1.5
   numberOfFlashes: 3
   components:
   - {fileID: 2352772298960741015}
   - {fileID: 2352772298960741097}
+  deathSound: {fileID: 8300000, guid: c12eeab1de8e70345ace4b8a6c50a3d8, type: 3}
+  hurtSound: {fileID: 8300000, guid: 5dfc9307086daa544999b7d0870af637, type: 3}
 --- !u!1 &2352772300060661145
 GameObject:
   m_ObjectHideFlags: 0

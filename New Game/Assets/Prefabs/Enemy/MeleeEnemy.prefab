@@ -149,6 +149,8 @@ MonoBehaviour:
   numberOfFlashes: 0
   components:
   - {fileID: 2648178832811529891}
+  deathSound: {fileID: 8300000, guid: c12eeab1de8e70345ace4b8a6c50a3d8, type: 3}
+  hurtSound: {fileID: 8300000, guid: 5dfc9307086daa544999b7d0870af637, type: 3}
 --- !u!114 &2648178832811529891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,10 +167,11 @@ MonoBehaviour:
   range: 2.5
   damage: 2
   boxCollider: {fileID: 2648178832811529888}
-  colliderDistance: 0.45
+  colliderDistance: 0.41
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
+  attackSound: {fileID: 8300000, guid: 4d3993a31cc2efc4cb8d48be6ab195a4, type: 3}
 --- !u!114 &7317244463107757892
 MonoBehaviour:
   m_ObjectHideFlags: 0
