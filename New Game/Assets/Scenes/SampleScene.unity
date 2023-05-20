@@ -11107,10 +11107,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1475100232}
     m_Modifications:
-    - target: {fileID: 2648178832811529891, guid: 4a2d37bbd67d98c4abeead42aaaffb34, type: 3}
-      propertyPath: colliderDistance
-      value: 0.41
-      objectReference: {fileID: 0}
     - target: {fileID: 2648178832811529901, guid: 4a2d37bbd67d98c4abeead42aaaffb34, type: 3}
       propertyPath: m_Name
       value: MeleeEnemy
@@ -12693,9 +12689,9 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1649551721738445054, guid: a47c6a588d54a8d428af612439cd2de6, type: 3}
-      propertyPath: colliderDistance
-      value: 0.315
+    - target: {fileID: 1649551721738445053, guid: a47c6a588d54a8d428af612439cd2de6, type: 3}
+      propertyPath: components.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3204053601776885644, guid: a47c6a588d54a8d428af612439cd2de6, type: 3}
       propertyPath: m_Name
@@ -12938,10 +12934,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2352772298960741014, guid: 1fea3e69be15af14681c3ecd867c81a3, type: 3}
-      propertyPath: iFrameDuration
-      value: 1.5
-      objectReference: {fileID: 0}
     - target: {fileID: 2352772298960741015, guid: 1fea3e69be15af14681c3ecd867c81a3, type: 3}
       propertyPath: fireballs.Array.data[0]
       value: 
