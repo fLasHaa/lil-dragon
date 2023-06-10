@@ -122,8 +122,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 805a5ce9d303a224f8ef9da0c11bb42d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 7
   jumpPower: 20
+  coyoteTime: 0.25
+  extraJumps: 1
+  wallJumpX: 1500
+  wallJumpY: 750
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -215,7 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
-  iFrameDuration: 1.5
+  iFrameDuration: 0.5
   numberOfFlashes: 3
   components:
   - {fileID: 2352772298960741015}
