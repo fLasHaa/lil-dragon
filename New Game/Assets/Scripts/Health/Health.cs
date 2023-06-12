@@ -48,9 +48,7 @@ public class Health : MonoBehaviour
             {
                 //Deactivate all attached component classes
                 foreach (Behaviour component in components)
-                {
                     component.enabled = false;
-                }
 
                 anim.SetBool("grounded", true);
                 anim.SetTrigger("die");
@@ -66,8 +64,20 @@ public class Health : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
     }
 
-    //----------------iFrames
-    //
+    public void Respawn()
+    {
+        dead = false;
+        AddHealth(startingHealth);
+        anim.ResetTrigger("die");
+        anim.Play("Idle");
+        StartCoroutine(Invulnerability()); //Will make player invulnerable on respawn (optional)
+
+        //Activate all attached component classes
+        foreach (Behaviour component in components)
+            component.enabled = true;
+    }
+
+   // ------------ I-Frames ---------------- //
     private IEnumerator Invulnerability()
     {
         invulnerable = true;

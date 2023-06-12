@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2352772298960741096}
   - component: {fileID: 2352772298960741015}
   - component: {fileID: 2352772298960741014}
+  - component: {fileID: 4291867196393438695}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -226,6 +227,19 @@ MonoBehaviour:
   - {fileID: 2352772298960741097}
   deathSound: {fileID: 8300000, guid: c12eeab1de8e70345ace4b8a6c50a3d8, type: 3}
   hurtSound: {fileID: 8300000, guid: 5dfc9307086daa544999b7d0870af637, type: 3}
+--- !u!114 &4291867196393438695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2352772298960741102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739c86191c6ec6a46aec8157e1153312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointSound: {fileID: 8300000, guid: ef3c3a4290c1ae54eb4b022a386a343c, type: 3}
 --- !u!1 &2352772300060661145
 GameObject:
   m_ObjectHideFlags: 0
